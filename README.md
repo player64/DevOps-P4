@@ -11,5 +11,5 @@ In this practical exercise you will learn how to:
 - Define build and test jobs
 - Read GitHub Action logs
 - Target different build targets using a build matrix
-- Create build artefacts and share them between jobs
-- Automate pull request reviews using GitHub actions  
+[_]  Create build artefacts and share them between jobs
+[x] Automate pull request reviews using GitHub actions  
