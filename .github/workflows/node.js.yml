@@ -7,7 +7,7 @@ on:
   push:
     branches: [ main ]
   pull_request:
-    branches: [ main ]
+    branches: [ main ] # we can specify the branches where the pull request will work with branch
 
 jobs:
   build:
