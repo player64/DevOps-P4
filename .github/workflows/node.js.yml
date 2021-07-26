@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: npm install and build webpack
-      - run:
+        run:
          npm install
          npm run build
   test:
@@ -27,7 +27,6 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
       - name: npm install and test
         run: 
           npm install
